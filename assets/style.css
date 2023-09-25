@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+  max-width: 375px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.logo {
+  color: #6070ff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.Headline {
+  display: flex;
+  flex-direction: column;
+  padding: 114px 24px;
+  width: 327px;
+  height: 150px;
+  gap: 12px;
+}
+
+.background {
+  position: absolute;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+}
+
+.PrimaryText {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.PrimaryText2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.connect {
+  color: #7f8cff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
