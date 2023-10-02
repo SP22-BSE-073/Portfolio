@@ -151,3 +151,46 @@ body {
   font-style: normal;
   font-weight: 600;
 }
+
+.About {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 114px 24px;
+  position: relative;
+  width: 327px;
+  height: 450px;
+  gap: 0;
+}
+
+.seeresume {
+  width: fit-content;
+  margin: 20px 5px;
+  padding: 10px 18px;
+  border: solid #616fe7 1px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  color: #152bf5;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.greaterthan {
+  display: flex;
+  justify-content: space-between;
+}
+
+.greaterthan h1 {
+  color: black;
+  width: 327px;
+}
+
+.greaterthan img {
+  margin-top: 25px;
+}
+
+.about {
+  margin-bottom: 10px;
+}
