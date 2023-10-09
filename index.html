@@ -20,7 +20,12 @@
     <header>
         <nav class="navbar">
             <div class="logo">My logo</div>
-            <div class="menu"><img src="assets/Icon - Menu.svg" alt="Menu"></div>
+            <div class="menu" id="menu" ><img src="assets/Icon - Menu.svg" alt="Menu" id="menu" class="menu" loading="lazy"></div>
+            <ul class="menu-list" id="menu-list">
+                <li class="list-item"><a href="#work-section">Portfolio</a></li>
+                <li class="list-item"><a href="#about">About</a></li>
+                <li class="list-item"><a href="#contact-form">Contact</a></li>
+            </ul>
         </nav>
     </header>
     <section class="Headline">
@@ -31,9 +36,9 @@
         <h3 class="connect"><span>LET'S CONNECT</span></h3>
         <img src="./assets/social media icons.svg" alt="" class="social">
     </section>
-    <section class="work-section">
-        <div class="card">
-            <img src="assets/card4 (2).png" alt="card1" class="card-image" type="image">
+    <section class="work-section" id="work-section">
+        <div class="card card1">
+            <img src="assets/desktop-img/Snapshoot Portfolio (1).png" alt="card1" class="card-image" type="image">
             <div class="cardContent">
                 <div class="cardTitle">
                     <h2>Tonic</h2>
@@ -50,12 +55,11 @@
                         <span>CSS</span>
                         <span>JAVASCRIPT</span>
                     </div>
-                    <div class="seeProject">See Porjects</div>
+                    <div class="seeProject">See Projects</div>
                 </div>
             </div>
         </div>
-        <div class="card">
-            <img src="assets/card4 (3).png" alt="card1" class="card-image" type="image">
+        <div class="card card2">
             <div class="cardContent">
                 <div class="cardTitle">
                     <h2>Multi-Post <br>Stories</h2>
@@ -72,12 +76,13 @@
                         <span>CSS</span>
                         <span>JAVASCRIPT</span>
                     </div>
-                    <div class="seeProject">See Porjects</div>
+                    <div class="seeProject">See Projects</div>
                 </div>
             </div>
+            <img src="assets/desktop-img/Snapshoot Portfolio (2).png" alt="card1" class="card-image" type="image">
         </div>
-        <div class="card">
-            <img src="assets/card4 (4).png" alt="card1" class="card-image" type="image">
+        <div class="card card3">
+            <img src="assets/desktop-img/Snapshoot Portfolio (3).png" alt="card1" class="card-image" type="image">
             <div class="cardContent">
                 <div class="cardTitle">
                     <h2>Tonic</h2>
@@ -94,12 +99,11 @@
                         <span>CSS</span>
                         <span>JAVASCRIPT</span>
                     </div>
-                    <div class="seeProject">See Porjects</div>
+                    <div class="seeProject">See Projects</div>
                 </div>
             </div>
         </div>
-        <div class="card">
-            <img src="assets/card4 (1).png" alt="card1" class="card-image" type="image">
+        <div class="card card4">
             <div class="cardContent">
                 <div class="cardTitle">
                     <h2>Multi-Post <br>Stories</h2>
@@ -116,22 +120,25 @@
                         <span>CSS</span>
                         <span>JAVASCRIPT</span>
                     </div>
-                    <div class="seeProject">See Porjects</div>
+                    <div class="seeProject">See Projects</div>
                 </div>
             </div>
+            <img src="assets/desktop-img/Snapshoot Portfolio.png"card1" class="card-image" type="image">
         </div>
     </section>
-    <section class="About">
-        <h1 class="PrimaryText">About Myself</h1>
-        <p class="PrimaryText2">Hello I’m a software developer! I can help you build a product , feature or website.
+    <section class="About" id="about">
+        <div class="myself">
+        <h1 class="PrimaryText-self">About Myself</h1>
+        <p class="PrimaryText2-self">Hello I’m a software developer! I can help you build a product , feature or website.
             Look through some of my work and experience! If you like what you see and have a project you need coded,
             don’t hesitate to contact me.</p>
         <h3 class="connect"><span>LET'S CONNECT</span></h3>
         <img src="./assets/social media icons.svg" alt="" class="social">
         <div class="seeresume">Get my resume</div>
+    </div>
         <div class="about-language">
             <div class="greaterthan">
-                <h1>Languages</h1>
+                <h1 class="text-lang">Languages</h1>
                 <img src="assets/down.svg">
             </div>
             <div class="about-language-part">
@@ -147,16 +154,16 @@
                 </div>
             </div>
             <div class="greaterthan">
-                <h1>Frameworks</h1>
+                <h1 class="text-lang">Frameworks</h1>
                 <img class="right" src="assets/down.svg">
             </div>
             <div class="greaterthan">
-                <h1>Skills</h1>
+                <h1 class="text-lang">Skills</h1>
                 <img class="right" src="assets/down.svg">
             </div>
         </div>
     </section>
-    <form action="https://formspree.io/f/xdorpgqe" method="post" class="contact-form">
+    <form action="https://formspree.io/f/xdorpgqe" method="post" class="contact-form" id="contact-form">
         <h1 class="form-title">Contact me</h1>
         <p class="form-dis">If you have an application you are interested in developing, a feature that you need built
             or a project that needs coding.
@@ -165,7 +172,6 @@
         <input type="email" placeholder="Enter your Email" required>
         <textarea name="message" placeholder="Write your message here..." cols="30" rows="10" required></textarea>
             <div><button class="form-button" type="submit">Get in touch</button></div>
-        
     </form>
 </body>
 
