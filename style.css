@@ -14,21 +14,19 @@ body {
     display: flex;
     padding: 1rem 8.9375rem;
     align-items: center;
-    gap: 49.75rem;
+    justify-content: space-between;
+    overflow: hidden;
   }
 
   .Headline {
     background-image: url(assets/desktop-img/Header\ bg.png);
     background-repeat: no-repeat;
+    position: relative;
     display: flex;
     padding: 18.0625rem 16.25rem;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-  }
-
-  .Headline::before {
-    position: absolute;
   }
 
   .PrimaryText,
