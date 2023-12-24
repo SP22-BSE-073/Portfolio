@@ -173,6 +173,17 @@
         <textarea name="message" placeholder="Write your message here..." cols="30" rows="10" required></textarea>
             <div><button class="form-button" type="submit">Get in touch</button></div>
     </form>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var menuButton = document.getElementById("menu");
+            var menuList = document.getElementById("menu-list");
+
+            menuButton.addEventListener("click", function () {
+                menuList.style.display = (menuList.style.display === "block") ? "none" : "block";
+            });
+        });
+    </script>
 </body>
 
 </html>
